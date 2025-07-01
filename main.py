@@ -33,5 +33,10 @@ if submitted:
     st.text_area("Cover Letter", cover_letter_text, height=300)
 
     # Download buttons
-    st.download_button("Download Resume", resume_text, file_name="resume.txt")
-    st.download_button("Download Cover Letter", cover_letter_text, file_name="cover_letter.txt")
+  # Encode text to bytes (UTF-8)
+    resume_bytes = resume_text.encode('utf-8')
+    cover_letter_bytes = cover_letter_text.encode('utf-8')
+
+    st.download_button("📄 Download Resume", resume_bytes, file_name="resume.txt", mime="text/plain")
+    st.download_button("📄 Download Cover Letter", cover_letter_bytes, file_name="cover_letter.txt", mime="text/plain")
+

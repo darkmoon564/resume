@@ -11,4 +11,4 @@ Sincerely,
 {name}
 {email}|{phone}
 """
-    return cover_letter.strip
+    return cover_letter.strip()

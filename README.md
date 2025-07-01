@@ -17,7 +17,7 @@ Generate professional, ATS-optimized resumes and personalized cover letters with
 
 ## 📸 Demo
 
-> 🔗 [Live App (Streamlit)](https://your-app-link.streamlit.app)
+> 🔗 [Live App (Streamlit)](https://resume-cover-letter.streamlit.app/)
 
 ---
 

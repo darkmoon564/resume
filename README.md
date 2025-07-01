@@ -47,5 +47,4 @@ Generate professional, ATS-optimized resumes and personalized cover letters with
 
 ---
 
-## 🧠 Sample Output
 
